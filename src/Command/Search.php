@@ -45,7 +45,7 @@ class Search extends Command
         parent::__construct();
     }
 
-    protected function configure()
+    protected function configure(): void
     {
         $this->setName('search')
              ->setDescription('Interactive search for project name')

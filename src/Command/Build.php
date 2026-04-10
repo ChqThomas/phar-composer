@@ -23,7 +23,7 @@ class Build extends Command
         $this->packager = $packager;
     }
 
-    protected function configure()
+    protected function configure(): void
     {
         $this->setName('build')
              ->setDescription('Build phar for the given composer project')
